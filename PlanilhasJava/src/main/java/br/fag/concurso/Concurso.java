@@ -1,5 +1,6 @@
 package br.fag.concurso;
 
+import br.fag.datas.Datas;
 import br.fag.ganhadores.Ganhadores;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,5 +12,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Concurso extends Ganhadores {
-    private int id;
+    private Integer id;
+    private Datas dataSorteio;
 }

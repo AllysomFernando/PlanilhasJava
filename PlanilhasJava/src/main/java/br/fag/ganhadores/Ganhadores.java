@@ -12,13 +12,13 @@ import lombok.Setter;
 @NoArgsConstructor
 
 public class Ganhadores extends Cidades {
-    public Integer ganhadores6;
-    public Integer ganhadores5;
-    public Integer ganhadores4;
+    private Integer ganhadores6;
+    private Integer ganhadores5;
+    private Integer ganhadores4;
 
-    public float rateio6;
-    public float rateio5;
-    public float rateio4;
+    private float rateio6;
+    private float rateio5;
+    private float rateio4;
 
 
 }

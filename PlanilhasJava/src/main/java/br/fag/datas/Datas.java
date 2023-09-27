@@ -1,4 +1,4 @@
-package br.fag.data;
+package br.fag.datas;
 
 import br.fag.concurso.Concurso;
 import lombok.AllArgsConstructor;
@@ -11,6 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Data extends Concurso {
-    public String data;
+public class Datas{
+    public String datas;
 }
+

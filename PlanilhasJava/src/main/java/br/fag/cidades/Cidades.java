@@ -12,5 +12,5 @@ import lombok.Setter;
 @AllArgsConstructor
 
 public class Cidades {
-    public Integer cidades;
+    private String cidades;
 }

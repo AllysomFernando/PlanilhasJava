@@ -6,10 +6,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Acumulado extends Concurso {
-    public Integer acomulado;
+    private Float acomulado;
+    private Float acomuladoVirada;
 }
+

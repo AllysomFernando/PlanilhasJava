@@ -11,11 +11,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Bolas extends Concurso {
-    public Integer bola1;
-    public Integer bola2;
-    public Integer bola3;
-    public Integer bola4;
-    public Integer bola5;
-    public Integer bola6;
-
+    private Integer bola1;
+    private Integer bola2;
+    private Integer bola3;
+    private Integer bola4;
+    private Integer bola5;
+    private Integer bola6;
 }
