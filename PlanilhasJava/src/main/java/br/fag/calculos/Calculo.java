@@ -2,6 +2,7 @@ package br.fag.calculos;
 
 import br.fag.bolas.Bolas;
 import br.fag.concurso.Concurso;
+import br.fag.ganhadores.Ganhadores;
 
 import java.util.HashMap;
 import java.util.List;
@@ -32,5 +33,30 @@ public class Calculo {
     private void atualizarFrequencia(Map<Integer, Integer> frequenciaNumeros, int numero) {
         frequenciaNumeros.put(numero, frequenciaNumeros.getOrDefault(numero, 0) + 1);
     }
+    public void calcularMenorEMaiorValorPago(List<Concurso> concursos, int dezenasSorteadas) {
+        float menorValorPago = Float.MAX_VALUE;
+        float maiorValorPago = 0.0f;
 
+        for (Concurso concurso : concursos) {
+            Ganhadores ganhadores = concurso.getGanhadores();
+            float valorPago = 0.0f;
+
+            switch (dezenasSorteadas) {
+                case 4 -> valorPago = ganhadores.getRateio4();
+                case 5 -> valorPago = ganhadores.getRateio5();
+                case 6 -> valorPago = ganhadores.getRateio6();
+                default -> {
+                }
+            }
+
+            if (valorPago > 0) {
+                if (valorPago < menorValorPago) {
+                    menorValorPago = valorPago;
+                }
+                if (valorPago > maiorValorPago) {
+                    maiorValorPago = valorPago;
+                }
+            }
+        }
+    }
 }

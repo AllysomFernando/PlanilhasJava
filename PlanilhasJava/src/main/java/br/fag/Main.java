@@ -1,7 +1,12 @@
 package br.fag;
 
+import br.fag.reader.Reader;
+
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args) throws IOException {
+        Reader reader = new Reader();
+        reader.lerPlanilha("D:\\Usuario\\Clones\\PlanilhasJava\\PlanilhasJava\\public\\planilha\\Mega-Sena.xlsx");
     }
 }

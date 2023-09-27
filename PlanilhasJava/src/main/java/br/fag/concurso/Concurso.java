@@ -16,5 +16,5 @@ public class Concurso extends Ganhadores {
     private Integer id;
     private Datas dataSorteio;
     private Bolas bolas;
-
+    private Ganhadores ganhadores;
 }
