@@ -1,6 +1,6 @@
-package br.fag.concurso;
+package br.fag.estimativa;
 
-import br.fag.ganhadores.Ganhadores;
+import br.fag.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,6 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Concurso extends Ganhadores {
-    private int id;
+public class Estimativa extends Concurso {
+    public Integer estimativa;
 }
