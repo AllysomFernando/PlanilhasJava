@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61850958-e0b9-455c-8a1b-45db7b111a4a" name="Changes" comment="" />
+    <list default="true" id="266a9c0f-7bb7-4fd8-bc4e-c6a15859780f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2Vz0PcoZzXMIXsesI1lG34ZUftd" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2WCsYiUpCef0urCkXompvNB5DFG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,20 +33,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "X:/Clone/PlanilhasJava/PlanilhasJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61850958-e0b9-455c-8a1b-45db7b111a4a" name="Changes" comment="" />
-      <created>1695823579494</created>
+      <changelist id="266a9c0f-7bb7-4fd8-bc4e-c6a15859780f" name="Changes" comment="" />
+      <created>1696247949214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695823579494</updated>
-      <workItem from="1695823580765" duration="59000" />
-      <workItem from="1696195462610" duration="9000" />
+      <updated>1696247949214</updated>
+      <workItem from="1696247951172" duration="626000" />
     </task>
     <servers />
   </component>

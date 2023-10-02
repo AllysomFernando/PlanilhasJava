@@ -33,7 +33,6 @@ public class Reader {
          if(row.getRowNum() == 0){
              continue;
          }
-
          Concurso concurso = criarConcursoAPartirDalinha(row);
          concursos.add(concurso);
      }
@@ -42,15 +41,12 @@ public class Reader {
     }
     private Concurso criarConcursoAPartirDalinha(Row row){
         Concurso concurso = new Concurso();
-        Datas datas = new Datas();
         concurso.setId((int) row.getCell(0).getNumericCellValue());
+        Datas datas = new Datas();
         datas.setDatas(row.getCell(1).getStringCellValue());
         concurso.setDataSorteio(datas);
 
-        System.out.println("Sorteio ID:" + concurso.getId());
-        System.out.println("Concurso Data do sorteio" + datas.getDatas());
-
-       Bolas bolas = new Bolas();
+        Bolas bolas = new Bolas();
 
         bolas.setBola1((int) row.getCell(2).getNumericCellValue());
         bolas.setBola2((int) row.getCell(3).getNumericCellValue());
@@ -62,31 +58,38 @@ public class Reader {
         Ganhadores ganhadores = new Ganhadores();
 
         ganhadores.setGanhadores6((int) row.getCell(8).getNumericCellValue());
-        ganhadores.setGanhadores5((int) row.getCell(12).getNumericCellValue());
-        ganhadores.setGanhadores4((int) row.getCell(14).getNumericCellValue());
+        ganhadores.setGanhadores5((int) row.getCell(11).getNumericCellValue());
+        ganhadores.setGanhadores4((int) row.getCell(13).getNumericCellValue());
 
-        ganhadores.setRateio6((int) row.getCell(10).getNumericCellValue());
-        ganhadores.setRateio5((int) row.getCell(13).getNumericCellValue());
-        ganhadores.setRateio4((int) row.getCell(15).getNumericCellValue());
+
+        ganhadores.setRateio6(Long.parseLong(row.getCell(10).getStringCellValue().replaceAll("[^\\d]", "")));
+        ganhadores.setRateio5(Long.parseLong(row.getCell(12).getStringCellValue().replaceAll("[^\\d]", "")));
+        ganhadores.setRateio4(Long.parseLong(row.getCell(14).getStringCellValue().replaceAll("[^\\d]", "")));
 
         Cidades cidades = new Cidades();
 
-        cidades.setCidades(row.getCell(11).getStringCellValue());
+        cidades.setCidades(row.getCell(9).getStringCellValue());
 
         Acumulado acumulados = new Acumulado();
-
-        acumulados.setAcomulado((float) row.getCell(16).getNumericCellValue());
-        acumulados.setAcomuladoVirada((float) row.getCell(19).getNumericCellValue());
+        acumulados.setAcomulado(Long.parseLong(row.getCell(15).getStringCellValue().replaceAll("[^\\d]", "")));
+        acumulados.setAcomuladoVirada(Long.parseLong(row.getCell(18).getStringCellValue().replaceAll("[^\\d]", "")));
 
         Estimativa estimativas = new Estimativa();
 
-        estimativas.setEstimativa((float) row.getCell(18).getNumericCellValue());
-
+        estimativas.setEstimativa((int) Long.parseLong(row.getCell(17).getStringCellValue().replaceAll("[^\\d]", "")));
         Arrecadacao arrecadacaos = new Arrecadacao();
 
-        arrecadacaos.setTotal((float) row.getCell(17).getNumericCellValue());
+        arrecadacaos.setTotal(Long.parseLong(row.getCell(16).getStringCellValue().replaceAll("[^\\d]", "")));
+
+        concurso.setBolas(bolas);
+        concurso.setGanhadores(ganhadores);
+        concurso.setCidades(String.valueOf(cidades));
+        concurso.setAcumulados(acumulados);
+        concurso.setEstimativas(estimativas);
+        concurso.setArrecadacaos(arrecadacaos);
         return concurso;
     }
+
 
 
 }

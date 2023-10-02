@@ -12,7 +12,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Acumulado extends Concurso {
-    private Float acomulado;
-    private Float acomuladoVirada;
+    private float acomulado;
+    private float acomuladoVirada;
 }
 

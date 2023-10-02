@@ -11,5 +11,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Estimativa extends Concurso {
-    private Float estimativa;
+    private Integer estimativa;
 }

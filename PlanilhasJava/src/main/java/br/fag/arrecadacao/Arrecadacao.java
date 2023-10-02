@@ -11,5 +11,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Arrecadacao extends Concurso {
-    private Float total;
+    private float total;
 }
