@@ -1,6 +1,6 @@
-package br.fag.ganhadores;
+package Models.ganhadores;
 
-import br.fag.cidades.Cidades;
+import Models.cidades.Cidades;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

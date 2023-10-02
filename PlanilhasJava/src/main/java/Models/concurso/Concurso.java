@@ -1,11 +1,11 @@
-package br.fag.concurso;
+package Models.concurso;
 
-import br.fag.acumulado.Acumulado;
-import br.fag.arrecadacao.Arrecadacao;
-import br.fag.bolas.Bolas;
-import br.fag.datas.Datas;
-import br.fag.estimativa.Estimativa;
-import br.fag.ganhadores.Ganhadores;
+import Models.acumulado.Acumulado;
+import Models.arrecadacao.Arrecadacao;
+import Models.bolas.Bolas;
+import Models.datas.Datas;
+import Models.estimativa.Estimativa;
+import Models.ganhadores.Ganhadores;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

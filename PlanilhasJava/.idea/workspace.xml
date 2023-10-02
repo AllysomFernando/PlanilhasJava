@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c65b02-4246-4e8c-bd8c-79f00bd48c25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/planilha/Mega-Sena.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/planilha/Mega-Sena.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/acumulado/Acumulado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/acumulado/Acumulado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/arrecadacao/Arrecadacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/arrecadacao/Arrecadacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/calculos/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/calculos/Calculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/concurso/Concurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/concurso/Concurso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/estimativa/Estimativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/estimativa/Estimativa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/megasena/MegaSena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/megasena/MegaSena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Services/reader/megasena/MegaSena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/views/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/acumulado/Acumulado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/acumulado/Acumulado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/arrecadacao/Arrecadacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/arrecadacao/Arrecadacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/bolas/Bolas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/bolas/Bolas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/calculos/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/calculos/Calculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/cidades/Cidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/cidades/Cidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/concurso/Concurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/concurso/Concurso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/datas/Datas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/datas/Datas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/estimativa/Estimativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/estimativa/Estimativa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/ganhadores/Ganhadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/ganhadores/Ganhadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/megasena/MegaSena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/reader/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,34 +30,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7a2dd15b-7805-4c53-b556-a46c31ae53c4" />
+        <option name="url" value="https://github.com/AllysomFernando/PlanilhasJava.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2WCtspCuHnfeHovZyzpvYV8XSXk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.fag.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.fag.views.Main" />
       <module name="PlanilhasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.fag.*" />
+          <option name="PATTERN" value="br.fag.views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +97,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696248599947</updated>
-      <workItem from="1696248602084" duration="8472000" />
+      <workItem from="1696248602084" duration="9802000" />
+      <workItem from="1696258457007" duration="1482000" />
+      <workItem from="1696264028284" duration="7255000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionando alterações ao repositório">
+      <option name="closed" value="true" />
+      <created>1696257263513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696257263513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando alterações ao repositório" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando alterações ao repositório" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

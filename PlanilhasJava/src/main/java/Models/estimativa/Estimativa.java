@@ -1,6 +1,6 @@
-package br.fag.datas;
+package Models.estimativa;
 
-import br.fag.concurso.Concurso;
+import Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,8 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class Datas{
-    public String datas;
+public class Estimativa extends Concurso {
+    private Integer estimativa;
 }
-

@@ -1,6 +1,6 @@
-package br.fag.acumulado;
+package Models.acumulado;
 
-import br.fag.concurso.Concurso;
+import Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

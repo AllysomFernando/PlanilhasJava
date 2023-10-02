@@ -1,6 +1,5 @@
-package br.fag.arrecadacao;
+package Models.datas;
 
-import br.fag.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,6 +9,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Arrecadacao extends Concurso {
-    private float total;
+
+public class Datas{
+    public String datas;
 }
+

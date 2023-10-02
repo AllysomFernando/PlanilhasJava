@@ -1,13 +1,13 @@
-package br.fag.reader;
+package Controllers.reader;
 
-import br.fag.acumulado.Acumulado;
-import br.fag.arrecadacao.Arrecadacao;
-import br.fag.bolas.Bolas;
-import br.fag.cidades.Cidades;
-import br.fag.concurso.Concurso;
-import br.fag.datas.Datas;
-import br.fag.estimativa.Estimativa;
-import br.fag.ganhadores.Ganhadores;
+import Models.acumulado.Acumulado;
+import Models.arrecadacao.Arrecadacao;
+import Models.bolas.Bolas;
+import Models.cidades.Cidades;
+import Models.concurso.Concurso;
+import Models.datas.Datas;
+import Models.estimativa.Estimativa;
+import Models.ganhadores.Ganhadores;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -15,11 +15,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.sql.Types.BOOLEAN;
-import static java.sql.Types.NUMERIC;
-import static org.apache.poi.ss.usermodel.DataValidationConstraint.ValidationType.FORMULA;
-import static org.apache.xmlbeans.impl.piccolo.xml.Piccolo.STRING;
 
 public class Reader {
     public List<Concurso> lerPlanilha(String caminhoDaPlanilha) throws IOException {

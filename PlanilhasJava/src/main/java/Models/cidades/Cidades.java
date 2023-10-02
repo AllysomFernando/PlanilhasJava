@@ -1,4 +1,4 @@
-package br.fag.cidades;
+package Models.cidades;
 
 
 import lombok.AllArgsConstructor;

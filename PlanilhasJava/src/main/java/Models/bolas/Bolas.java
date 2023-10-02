@@ -1,6 +1,6 @@
-package br.fag.bolas;
+package Models.bolas;
 
-import br.fag.concurso.Concurso;
+import Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
