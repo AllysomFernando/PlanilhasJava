@@ -1,14 +1,18 @@
-package Controllers.reader;
+package br.fag.Controllers.reader;
 
-import Models.acumulado.Acumulado;
-import Models.arrecadacao.Arrecadacao;
-import Models.bolas.Bolas;
+
 import Models.cidades.Cidades;
-import Models.concurso.Concurso;
-import Models.datas.Datas;
-import Models.estimativa.Estimativa;
-import Models.ganhadores.Ganhadores;
-import org.apache.poi.ss.usermodel.*;
+
+import br.fag.Models.acumulado.Acumulado;
+import br.fag.Models.arrecadacao.Arrecadacao;
+import br.fag.Models.bolas.Bolas;
+import br.fag.Models.concurso.Concurso;
+import br.fag.Models.datas.Datas;
+import br.fag.Models.estimativa.Estimativa;
+import br.fag.Models.ganhadores.Ganhadores;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
@@ -76,9 +80,10 @@ public class Reader {
 
         arrecadacaos.setTotal(Long.parseLong(row.getCell(16).getStringCellValue().replaceAll("[^\\d]", "")));
 
+
         concurso.setBolas(bolas);
         concurso.setGanhadores(ganhadores);
-        concurso.setCidades(String.valueOf(cidades));
+        concurso.getGanhadores().setCidades(cidades);
         concurso.setAcumulados(acumulados);
         concurso.setEstimativas(estimativas);
         concurso.setArrecadacaos(arrecadacaos);

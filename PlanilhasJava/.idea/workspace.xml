@@ -5,27 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c65b02-4246-4e8c-bd8c-79f00bd48c25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Services/reader/megasena/MegaSena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/views/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Controllers/calculos/Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Controllers/reader/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/acumulado/Acumulado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/arrecadacao/Arrecadacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/bolas/Bolas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/cidades/Cidades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/concurso/Concurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/datas/Datas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/estimativa/Estimativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Models/ganhadores/Ganhadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/fag/Services/reader/megasena/MegaSena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/CalculoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/ReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/acumulado/Acumulado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/acumulado/Acumulado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/arrecadacao/Arrecadacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/arrecadacao/Arrecadacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/bolas/Bolas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/bolas/Bolas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/calculos/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/calculos/Calculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/cidades/Cidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/cidades/Cidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/concurso/Concurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/concurso/Concurso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/datas/Datas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/datas/Datas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/estimativa/Estimativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/estimativa/Estimativa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/ganhadores/Ganhadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/ganhadores/Ganhadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/megasena/MegaSena.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/reader/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/reader/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/calculos/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/reader/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/acumulado/Acumulado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/arrecadacao/Arrecadacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/bolas/Bolas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/cidades/Cidades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/concurso/Concurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/datas/Datas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/estimativa/Estimativa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/ganhadores/Ganhadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/reader/megasena/MegaSena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/fag/views/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/fag/views/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -52,24 +70,29 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2WCtspCuHnfeHovZyzpvYV8XSXk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.ReaderTest.testLerPlanilha">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.fag.views.Main" />
       <module name="PlanilhasJava" />
@@ -83,8 +106,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanilhasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.ControllersTest.calculosTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.ControllersTest.calculosTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ControllersTest.calculosTest.CalculoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculoTest.testCalcularFrequenciaNumeros (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanilhasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CalculoTest" />
+      <option name="METHOD_NAME" value="testCalcularFrequenciaNumeros" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculoTest.testCalcularFrequenciaNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanilhasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.ControllersTest.calculosTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.ControllersTest.calculosTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ControllersTest.calculosTest.CalculoTest" />
+      <option name="METHOD_NAME" value="testCalcularFrequenciaNumeros" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderTest.testLerPlanilha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlanilhasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ReaderTest" />
+      <option name="METHOD_NAME" value="testLerPlanilha" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReaderTest.testLerPlanilha" />
+        <item itemvalue="JUnit.CalculoTest.testCalcularFrequenciaNumeros (1)" />
+        <item itemvalue="JUnit.CalculoTest.testCalcularFrequenciaNumeros" />
+        <item itemvalue="JUnit.CalculoTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -116,6 +206,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adicionando alterações ao repositório" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionando alterações ao repositório" />
   </component>

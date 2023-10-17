@@ -1,8 +1,9 @@
-package Controllers.calculos;
+package br.fag.Controllers.calculos;
 
-import Models.bolas.Bolas;
-import Models.concurso.Concurso;
-import Models.ganhadores.Ganhadores;
+
+import br.fag.Models.bolas.Bolas;
+import br.fag.Models.concurso.Concurso;
+import br.fag.Models.ganhadores.Ganhadores;
 
 import java.text.NumberFormat;
 import java.util.HashMap;

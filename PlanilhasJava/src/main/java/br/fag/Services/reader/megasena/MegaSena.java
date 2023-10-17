@@ -1,6 +1,7 @@
-package Services.reader.megasena;
+package br.fag.Services.reader.megasena;
 
-import Models.concurso.Concurso;
+
+import br.fag.Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

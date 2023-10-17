@@ -1,4 +1,4 @@
-package Models.ganhadores;
+package br.fag.Models.ganhadores;
 
 import Models.cidades.Cidades;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Ganhadores extends Cidades {
+public class Ganhadores {
+    private Cidades cidades;
     private Integer ganhadores6;
     private Integer ganhadores5;
     private Integer ganhadores4;

@@ -1,6 +1,6 @@
-package Models.bolas;
+package br.fag.Models.bolas;
 
-import Models.concurso.Concurso;
+import br.fag.Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +10,8 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Bolas extends Concurso {
+public class Bolas {
+    private Concurso concurso;
     private Integer bola1;
     private Integer bola2;
     private Integer bola3;

@@ -1,6 +1,7 @@
-package Models.estimativa;
+package br.fag.Models.estimativa;
 
-import Models.concurso.Concurso;
+
+import br.fag.Models.concurso.Concurso;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,6 +11,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Estimativa extends Concurso {
+public class Estimativa  {
+    private Concurso concurso;
     private Integer estimativa;
 }

@@ -1,10 +1,12 @@
 package br.fag.views;
 
 
-import Controllers.calculos.Calculo;
-import Models.concurso.Concurso;
-import Services.reader.megasena.MegaSena;
-import Controllers.reader.Reader;
+
+import br.fag.Controllers.calculos.Calculo;
+import br.fag.Controllers.reader.Reader;
+import br.fag.Models.concurso.Concurso;
+import br.fag.Services.reader.megasena.MegaSena;
+
 import java.io.IOException;
 import java.util.*;
 

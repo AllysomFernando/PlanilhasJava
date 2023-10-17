@@ -1,11 +1,12 @@
-package Models.concurso;
+package br.fag.Models.concurso;
 
-import Models.acumulado.Acumulado;
-import Models.arrecadacao.Arrecadacao;
-import Models.bolas.Bolas;
-import Models.datas.Datas;
-import Models.estimativa.Estimativa;
-import Models.ganhadores.Ganhadores;
+
+import br.fag.Models.acumulado.Acumulado;
+import br.fag.Models.arrecadacao.Arrecadacao;
+import br.fag.Models.bolas.Bolas;
+import br.fag.Models.datas.Datas;
+import br.fag.Models.estimativa.Estimativa;
+import br.fag.Models.ganhadores.Ganhadores;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Concurso extends Ganhadores {
+public class Concurso{
     private Integer id;
     private Datas dataSorteio;
     public Bolas bolas;
